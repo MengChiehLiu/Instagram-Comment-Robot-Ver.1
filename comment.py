@@ -48,6 +48,7 @@ for i in post:
 
 for url in hashtag_url_list:
     browser.get(url)
+    
     # ------ Find Textarea ------ 
     find_comment_box = (By.XPATH, '/html/body/div[1]/section/main/div/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/textarea')
     WebDriverWait(browser, 30).until(EC.presence_of_element_located(find_comment_box))
