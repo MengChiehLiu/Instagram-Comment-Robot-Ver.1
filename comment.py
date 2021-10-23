@@ -19,7 +19,7 @@ random_comments=[] #放入留言
 # ------ 用cookie登入 ------
 url = 'https://www.instagram.com/'  
 browser.get(url) 
-cookies = pickle.load(open("pickles/cookies.pkl", "rb"))
+cookies = pickle.load(open("cookies.pkl", "rb"))
 for cookie in cookies:
     browser.add_cookie(cookie)
 browser.get(url)
