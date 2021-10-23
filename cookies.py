@@ -3,6 +3,7 @@ Instagram Comment Robot (Ver.1)
 Created by MJ. Liu
 2021/10/23
 """
+#執行完後資料夾中會新增cookies.pkl檔，用來記錄登入資訊。
 
 from selenium.webdriver.support import expected_conditions as EC  #pip install selenium
 from selenium.webdriver.support.wait import WebDriverWait
