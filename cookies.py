@@ -24,8 +24,8 @@ username_input = browser.find_elements_by_name('username')[0]
 password_input = browser.find_elements_by_name('password')[0]
 
 # ------ 輸入帳號密碼 ------
-username_input.send_keys("wang_eason_0007")   #你的IG帳號
-password_input.send_keys("wang_eason_0008")   #你的IG密碼
+username_input.send_keys("account")   #你的IG帳號
+password_input.send_keys("password")   #你的IG密碼
 
 # ------ 登入 ------
 WebDriverWait(browser, 30).until(EC.presence_of_element_located((By.XPATH,'//*[@id="loginForm"]/div/div[3]/button/div')))
