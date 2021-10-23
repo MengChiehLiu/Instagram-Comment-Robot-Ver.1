@@ -3,16 +3,16 @@ Instagram Comment Robot (Ver.1)
 Created by MJ. Liu
 2021/10/23
 """
+#先執行cookies.py後再執行此程式。
 
 from selenium.webdriver.support import expected_conditions as EC  #pip install selenium
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 import time
 import pickle
 import random
-browser = webdriver.Firefox(executable_path="geckodriver.exe")  #記得存在同個資料夾裡
+browser = webdriver.Firefox(executable_path="geckodriver.exe")  #使用firefox瀏覽器，記得存在同個資料夾裡
 random_comments=[] #放入留言
 
 # ------ 用cookie登入 ------
