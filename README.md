@@ -30,4 +30,4 @@ comment.py
 
 # 其他
 
-可自行加入按讚功能，請參考: https://github.com/MengChiehLiu/Instgram_Like_Robot_Ver.1
+可自行加入按讚功能，請參考: https://github.com/MengChiehLiu/Instagram-Like-Robot-Ver.1
