@@ -24,6 +24,6 @@ cookies.py
 
 comment.py
 
-(16行) random_comments=["留言1","留言2",...] #放入留言
+(17行) random_comments=["留言1","留言2",...] #放入留言
 
-(32行) url_main_page = 'https://www.instagram.com/XXXXXXXXX/'   #目標網址(個人首頁)
+(33行) url_main_page = 'https://www.instagram.com/XXXXXXXXX/'   #目標網址(個人首頁)
