@@ -29,7 +29,7 @@ notification_click = browser.find_elements_by_xpath('/html/body/div[5]/div/div/d
 notification_click.click()
 
 # ------ 前往個人首頁 ------
-url_main_page = 'https://www.instagram.com/eateat_bao5252/'
+url_main_page = 'https://www.instagram.com/XXXXXXXXX/'  #目標網址
 browser.get(url_main_page)
 
 # ------ 取得貼文網址 ------ 
