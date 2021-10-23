@@ -27,3 +27,7 @@ comment.py
 (17行) random_comments=["留言1","留言2",...] #放入留言
 
 (33行) url_main_page = 'https://www.instagram.com/XXXXXXXXX/'   #目標網址(個人首頁)
+
+# 其他
+
+可自行加入按讚功能，請參考: https://github.com/MengChiehLiu/Instgram_Like_Robot_Ver.1
