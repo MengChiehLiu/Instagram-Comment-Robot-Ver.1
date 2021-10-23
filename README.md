@@ -1,6 +1,6 @@
 # Instagram_Comment_Robot_Ver.1
 
-自動留言機器人，一次大約可對36篇貼文隨機留言。
+Instagram自動留言機器人，一次大約可對36篇貼文隨機留言。
 
 第一次使用時先執行cookies.py，執行完後資料夾中會新增cookies.pkl檔，用來記錄登入資訊，第二次開始便可直接執行comment.py。
 
@@ -9,7 +9,7 @@
 
 python == 3.8.10
 
-Firefox == 93.0.0.7940 (使用Firefox瀏覽器可回覆表情符號)
+firefox == 93.0.0.7940 (使用Firefox瀏覽器可回覆表情符號)
 
 geckodriver.exe == 94.0.4606.61
 
