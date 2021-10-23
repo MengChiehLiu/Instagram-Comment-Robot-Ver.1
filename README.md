@@ -1,4 +1,4 @@
-# Instagram_Comment_Robot_Ver.1
+# Instagram Comment Robot Ver.1
 
 Instagram自動留言機器人，一次大約可對36篇貼文隨機留言。
 
