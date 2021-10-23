@@ -20,7 +20,7 @@ cookies.py
 
 (27行) username_input.send_keys("account")    #你的IG帳號
 
-(38行) password_input.send_keys("password")   #你的IG密碼
+(28行) password_input.send_keys("password")   #你的IG密碼
 
 comment.py
 
