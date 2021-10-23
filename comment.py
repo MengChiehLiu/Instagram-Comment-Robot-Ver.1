@@ -7,6 +7,7 @@ Created by MJ. Liu
 
 from selenium.webdriver.support import expected_conditions as EC  #pip install selenium
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 import time
@@ -31,6 +32,12 @@ notification_click.click()
 # ------ 前往個人首頁 ------
 url_main_page = 'https://www.instagram.com/XXXXXXXXX/'  #目標網址
 browser.get(url_main_page)
+
+# ------ 往下加載 ------
+for i in range(2):
+    html = browser.find_element_by_tag_name('html')
+    html.send_keys(Keys.END)
+    time.sleep(2)
 
 # ------ 取得貼文網址 ------ 
 post = browser.find_elements_by_class_name('v1Nh3')
